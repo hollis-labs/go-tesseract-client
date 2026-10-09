@@ -1,5 +1,22 @@
 # go-tesseract-client
 
+## Maintenance moved to `github.com/hollis-labs/libs/util`
+
+This standalone repository is retired. Maintained source and documentation are
+in [github.com/hollis-labs/libs/util/tesseractclient](https://github.com/hollis-labs/libs/tree/util%2Fv0.2.0/util/tesseractclient), released in **`util/v0.2.0`**.
+Install the replacement module:
+
+```sh
+go get github.com/hollis-labs/libs/util@v0.2.0
+```
+
+Replace the `github.com/hollis-labs/go-tesseract-client` import prefix with
+`github.com/hollis-labs/libs/util/tesseractclient`, retaining the package subpath. Review the replacement documentation
+for any API changes before migrating. Existing standalone tags and history remain
+available; old module pins do not automatically redirect to the new module.
+
+The documentation below describes historical standalone usage.
+
 Small shared HTTP client for Tesseract's memory API: recall, deprecate, point-reads, namespace listing and health.
 
 ## Status
