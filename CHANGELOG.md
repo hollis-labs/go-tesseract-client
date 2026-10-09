@@ -4,6 +4,8 @@
 
 ### Changed
 
+- Pin the CI toolchain to Go 1.26.9, which fixes the reachable standard-library
+  vulnerabilities reported by govulncheck; retain the Go 1.26.6 language floor.
 - Maintained development moved to [github.com/hollis-labs/libs/util/tesseractclient](https://github.com/hollis-labs/libs/tree/util%2Fv0.2.0/util/tesseractclient) in
   `github.com/hollis-labs/libs/util@v0.2.0` (`util/v0.2.0`).
 - This standalone repository is retired after the replacement release was
